@@ -7,6 +7,26 @@
 
 } 
 
+nav {
+    position:fixed;
+   // background-color:brown;
+    display:flex;
+    width:100%;
+    align-items:center;
+    padding: 2vw 9vw;
+    justify-content:space-between;
+
+}
+.navi {
+    display:flex;
+   gap:1.8vw;
+}
+.navi h4 {
+    font-size:0.85vw;
+    font-weight:400;
+    text-transform:uppercase;
+}
+
 
 #page1 {
     height: 100vh;
@@ -44,11 +64,14 @@
     text-transform:uppercase;
     border:2px solid #a5a5a5;
     border-radius:50px;
-    margin:10px
+    margin-top:1vw
+    
 }
 
 #page1_tabs h4:nth-last-child(2) {
-    background-color:#333;
+    background-color:#fff;
+    color:#000;
+    
 }
 
 
