@@ -16,6 +16,7 @@ nav {
     align-items:flex-start;
     padding: 2vw 9vw;
     justify-content:space-between;
+    z-index:10;
 
 }
 .navi {
@@ -137,8 +138,92 @@ nav button svg {
     color:#000;   
 }
 
+#moving-div {
+    //background-color:red;
+    position:absolute;
+    bottom:3%;
+    width:45%;
+    white-space:nowrap;
+    padding:1.2vh;
+    overflow:hidden;
+    //margin-top:10vh;
+    margin-bottom:2vw;
+}
+#moving-div .move {
+    display:inline-block;
+    animation-name:move;
+    animation-duration:10s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+#moving-div .move img {
+    height:1.2vw;
+    margin: 0 1vw;
+}
+@keyframes move {
+    0% {
+        transform:translateX(0);
+    }
+    100% {
+        transform:translateX(-100%);
+    }
+}
+#blur-left {
+    height:100%;
+    width:20%;
+    //background-color:red;
+    background:linear-gradient(to right,#111,transparent);
+
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2; 
+}
+#blur-right {
+    height:100%;
+    width:20%;
+    background:linear-gradient(to right, transparent,#111);
+   // background-color:red;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:2; 
+}
+
 #page2 {
     height: 100vh;
     width:100%;
     background-color: #111;
+    position:relative;
+    padding:0vw 10.5vw;
+    padding-bottom:5vw;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-top: 1px solid #331;
+}
+#page2-left {
+    height:100%;
+    width:40%;
+    /*background-color: #333;*/
+    margin-top:4vw;
+    display:flex;
+    align-items:center;
+    justify-content:space-between; /*or flex-start */
+    flex-direction:column;
+    padding:3vw 0vw;
+}
+#page2-left p {
+    font-size:1vw;
+}
+#page2-left h5 {
+    font-size:1.1vw;
+    font-weight:400;
+    width:65%;
+}
+#page2-right {
+    height:100%;
+    width:50%;
+    /*background-color: #333;*/
+    margin-top:4vw;
 }

@@ -39,3 +39,4 @@ tl.to(".navi h5 span",{
     })
 })
 }
+navAnimation();
