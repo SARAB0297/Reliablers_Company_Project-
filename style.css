@@ -196,7 +196,7 @@ nav button svg {
     background-color: #111;
     position:relative;
     padding:0vw 10.5vw;
-    padding-bottom:5vw;
+    padding-bottom:8vw;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -211,19 +211,41 @@ nav button svg {
     align-items:center;
     justify-content:space-between; /*or flex-start */
     flex-direction:column;
-    padding:3vw 0vw;
+    padding:4vw 0vw;
 }
 #page2-left p {
-    font-size:1vw;
+    font-size:1.1vw;
 }
 #page2-left h5 {
     font-size:1.1vw;
-    font-weight:400;
+    font-weight:300;
     width:65%;
 }
 #page2-right {
     height:100%;
     width:50%;
+    
     /*background-color: #333;*/
     margin-top:4vw;
+}
+.right-elem {
+    position:relative;
+    /*background-color:#333; */
+    padding-top:2vw;
+    padding-bottom:5vw;
+    border-bottom: 1px solid #333; 
+}
+.right-elem h2 {
+    font-size:1.3vw;
+    font-weight:300;
+   /* text-align:right; */
+}
+.right-elem img {
+    height:7vw;
+    width:7vw;
+    border-radius:50%;
+    object-fit:cover;
+    opacity:0;
+    position:absolute;
+    scale:0;
 }
