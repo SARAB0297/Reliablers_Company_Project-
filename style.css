@@ -306,3 +306,53 @@ nav button svg {
     transform:scaleX(0.7) scaleY(0);
     border-radius:30px 
 }
+
+#Extrapage4 {
+    height:80vh;
+    width:100%;
+    background-color: #fff;
+    position:relative;
+    margin-top:20vh;
+    display:flex;
+    justify-content:space-between;
+}    
+#Extrapage4-left {
+    height:80vh;
+    width:50%;
+    display:block;
+    color:black;
+    margin-left:20vh; 
+    flex-direction:column;
+    
+}
+#Extrapage4-left h1 {
+    font-family: 'Verdana', sans-serif;
+    color:black;
+    font-weight:800;
+    font-size:3vw;
+}
+
+#Extrapage4-right {
+    height:80vh;
+    width:50%;
+    display:block;
+    color:black;
+    margin-right:20vh; 
+    display:flex;
+    flex-direction:column;
+    
+}
+#Extrapage4-right p{
+    color:black;
+    font-size:1.5vw;
+    padding-top:3vh;
+    font-weight:500;
+    margin-bottom:5vh;
+    margin-top:0.5vh
+}
+#Extrapage4-right h2 {
+    color:#112;
+    margin-bottom:1px
+}
+    
+   
