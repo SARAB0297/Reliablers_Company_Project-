@@ -411,4 +411,132 @@ nav button svg {
     opacity:0;
     transition:opacity ease 0.5s;
 }
+
+#page5 {
+    min-height:100vh;
+    width:100%;
+    background-color:#111;
+    position:relative;
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    padding:8vh 11vw;
+}
+#page5 button {
+    background-color:#0BA34E;
+    padding:1vw 2.5vw;
+    font-weight:500;
+    font-size:1.2vw;
+    border-radius:50px;
+    border:none;
+}
+.page5-right {
+    width:70%;
+}
+.page5-right>p {
+    font-size:1.8vw;
+}
+.page5-right>p span {
+    background-color:red;
+    width:15vw;
+    display:inline-block;   
+}
+#page5-content {
+    width:100%;
+    margin-top:5px;
+    padding:5vh 0;
+    border-top:2px solid #fff;
+}
+#page5-content>h1 {
+    font-size:3vw;
+}
+#page5-content #flex {
+    display:flex;
+    margin-top:4vh;
+    margin-bottom:4vh;
+}
+#page5-content #flex h4 {
+    border-radius:50px;
+    border:1px solid #fff;
+    font-size:0.8vw;
+    font-weight:500;
+    padding:10px 20px;
+}
+.page5-elem {
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    padding-top:3vh;
+    padding-bottom:8vh;
+    position:relative;
+    overflow:hidden;   
+    border-top:1px solid #333;
+    transition:all cubic-bezier(0.19,1,0.22,1) 1s;
+
+
+}
+.page5-elem p {
+    font-size:1vw;
+    width:55%;
+    position:relative;
+    z-index:8;
+}
+.page5-elem h3 {
+   font-size:1.5vw;
+   font-weight:400;
+   position:relative;
+    z-index:8; 
+}
+.page5-elem i {
+    font-size:1.2vw;
+    position:relative;
+    z-index:8;
+}
+#over {
+    height:100%;
+    width:100%;
+    background-color:#222;
+    position:absolute;
+    top:0;
+    transform:translateY(-100%);
+    opacity:0;
+    /*display:none; instead we used overflow hidden*/
+    transition:all cubic-bezier(0.19,1,0.22,1) 1s;
+}
+.page5-elem:hover h3{
+    padding-left:0.5vw;
+    transition:all cubic-bezier(0.19,1,0.22,1) 1s;
+
+}
+.page5-elem:hover i{
+    padding-right:0.5vw;
+    transition:all cubic-bezier(0.19,1,0.22,1) 1s;
+
+}
+.page5-elem:hover #over{
+    transform:translateY(0%);
+    opacity:1;
+    /*display:initial;*/
+}
+.page5-elem:hover {
+    border-top:2px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
