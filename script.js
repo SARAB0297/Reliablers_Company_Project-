@@ -88,7 +88,21 @@ video.addEventListener("click",function(){
     })
 })
 }
+function page4VideoAnimation() {
+var sections=document.querySelectorAll(".sec1-right")
 
+sections.forEach(function(elem){
+    elem.addEventListener("mouseenter",function(){    
+        elem.childNodes[4].style.opacity=1;
+        elem.childNodes[4].play()
+    })
+    elem.addEventListener("mouseleave",function(){    
+        elem.childNodes[4].style.opacity=0;
+        elem.childNodes[4].load()
+    })
+})
+}
 //navAnimation();
 page2Animation();
 page3VideoAnimation();
+page4VideoAnimation();
