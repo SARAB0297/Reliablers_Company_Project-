@@ -429,6 +429,9 @@ nav button svg {
     font-size:1.2vw;
     border-radius:50px;
     border:none;
+    position:sticky;
+    top:18%;
+
 }
 .page5-right {
     width:70%;
@@ -445,10 +448,16 @@ nav button svg {
     width:100%;
     margin-top:5px;
     padding:5vh 0;
-    border-top:2px solid #fff;
+    position:relative;
 }
-#page5-content>h1 {
+#page5-content i {
+    position:absolute;
+    right:1%
+    
+}
+#page5-content h1 {
     font-size:3vw;
+    font-weight:500;
 }
 #page5-content #flex {
     display:flex;
@@ -459,9 +468,11 @@ nav button svg {
     border-radius:50px;
     border:1px solid #fff;
     font-size:0.8vw;
-    font-weight:500;
+    text-transform:uppercase;
+    font-weight:600;
     padding:10px 20px;
 }
+
 .page5-elem {
     display:flex;
     align-items:flex-start;
@@ -472,12 +483,11 @@ nav button svg {
     overflow:hidden;   
     border-top:1px solid #333;
     transition:all cubic-bezier(0.19,1,0.22,1) 1s;
-
-
 }
 .page5-elem p {
     font-size:1vw;
     width:55%;
+    padding-right:8vh;
     position:relative;
     z-index:8;
 }
@@ -520,6 +530,18 @@ nav button svg {
 }
 .page5-elem:hover {
     border-top:2px solid #fff;
+}   
+summary::marker {
+    content:""
+}
+.uiux {
+    border-top:1px solid #fff;
+    padding-top:3vh;
+} 
+.product{
+    padding-top:3vh;
+    border-top:1px solid #fff;
+
 }
 
 
@@ -535,8 +557,3 @@ nav button svg {
 
 
 
-
-
-
-
-   
