@@ -42,7 +42,7 @@ tl.from("#page1",{
     delay:0.2
 })
 tl.from("#page1", {
-    transform:"scaleX(0.7) scaleY(0.2) translateY(-200%)",
+    transform:"scaleX(0.7) scaleY(0.2) translateY(-80%)",
     borderRadius:"150px",
     duration:2,
     ease:"expo-out"
