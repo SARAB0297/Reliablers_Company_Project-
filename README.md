@@ -1,6 +1,6 @@
 Project Overview
 
-This website serves as a clean, dynamic, and user-friendly interface for a fintech company. From its sleek navigation to animated content transitions, this site creates a visually appealing experience that communicates trust and efficiency, which is essential for any fintech service provider. With a strong focus on responsiveness, performance, and modern UI/UX design, this site can be a great addition to any fintech agency's digital presence.
+This website serves as a clean, dynamic, and user-friendly interface for a company. From its sleek navigation to animated content transitions, this site creates a visually appealing experience that communicates trust and efficiency, which is essential for service provider. With a strong focus on responsiveness, performance, and modern UI/UX design, this site can be a great addition to any agency's digital presence.
 
 Key Highlights:
 Animated CSS: Subtle yet sophisticated animations make the interface interactive without overwhelming the user.
